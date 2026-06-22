@@ -1,2 +1,7 @@
 # portfolio-v2
-My current portfolio will soon be updated i am currently working on V3 after that i will publish my second ever portfolio
+
+Personal portfolio website built with HTML, CSS and JavaScript.
+
+This project is archived and no longer maintained. It represents an earlier stage of my web development journey.
+
+Made in early 2025
