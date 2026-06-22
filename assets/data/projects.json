@@ -1,0 +1,42 @@
+[
+    {
+        "name": "WAC Shop",
+        "description": "A web shop for watches",
+        "live_url": "https://watchartcreations.com/",
+        "archive_url": false,
+        "image_url": "./assets/images/wac-showcase.png",
+        "tags": ["Shopify", "CSS"]
+    },
+    {
+        "name": "MC Shirt Picsart API Tool",
+        "description": "A simple tool for Mc Shirt to access their Picsart API",
+        "live_url": "https://mrbobertus.github.io/projects/web-dev/mc-shirt-api-tool/",
+        "archive_url": "https://github.com/MrBobertus/MrBobertus.github.io/tree/main/projects/web-dev/mc-shirt-api-tool",
+        "image_url": "./assets/images/mcs-showcase.png",
+        "tags": ["HTML", "Tailwind", "CSS", "JavaScript"]
+    },
+    {
+        "name": "Finance Manager",
+        "description": "A simple finance tracking tool",
+        "live_url": "https://mrbobertus.github.io/projects/web-dev/finance-tracker/",
+        "archive_url": "https://github.com/MrBobertus/MrBobertus.github.io/tree/main/projects/web-dev/finance-tracker",
+        "image_url": "./assets/images/finance-showcase.png",
+        "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "name": "CS:GO Random Box Generator",
+        "description": "Random Wheel just in CS:GO Box format",
+        "live_url": "https://mrbobertus.github.io/projects/web-dev/cs_go-lootbox/",
+        "archive_url": "https://github.com/MrBobertus/MrBobertus.github.io/tree/main/projects/web-dev/cs_go-lootbox",
+        "image_url": "./assets/images/csgo-showcase.png",
+        "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "name": "Old Portfolio",
+        "description": "This was my very first Portfolio",
+        "live_url": "https://mrbobertus.github.io/projects/web-dev/portfolio-old/",
+        "archive_url": "https://github.com/MrBobertus/MrBobertus.github.io/tree/main/projects/web-dev/portfolio-old",
+        "image_url": "./assets/images/portfolio-old.png",
+        "tags": ["HTML", "CSS", "JavaScript"]
+    }
+]

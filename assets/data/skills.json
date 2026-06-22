@@ -1,0 +1,26 @@
+[
+    {
+        "name": "HTML",
+        "image_url": "./assets/images/html-icon.png"
+    },
+    {
+        "name": "CSS",
+        "image_url": "./assets/images/css-icon.png"
+    },
+    {
+        "name": "JavaScript",
+        "image_url": "./assets/images/js-icon.png"
+    },
+    {
+        "name": "Lua",
+        "image_url": "./assets/images/lua-icon.png"
+    },
+    {
+        "name": "Python",
+        "image_url": "./assets/images/code-icon.png"
+    },
+    {
+        "name": "Java",
+        "image_url": "./assets/images/java-icon.png"
+    }
+]

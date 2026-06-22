@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MrBobertus </> Portfolio</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="w-[100%] h-[100%] min-w-[100vw] min-h-[100vh] bg-[#0f0000] pattern-background overflow-hidden"
+  >
+    <img id="pickaxe" src="./assets/secret/pickaxe.png" alt="pickaxe" class="sharp-image absolute h-full w-auto top-0 right-0 z-[99] pointer-events-none hidden" />
+    <div class="w-full h-full grid grid-cols-[10%_80%_10%] grid-rows-[7.5vh_85vh_7.5vh] absolute top-0 left-0 z-0 *:border *:border-red-900 *:border-dashed pointer-events-none">
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+      <div><p class="text-red-800/40">Margin</p></div>
+    </div>
+    <section
+      class="bg-[#050505] w-[80%] h-[85vh] p-5 border-2 border-red-900 shadow-lg shadow-red-900 rounded-lg flex flex-col justify-start items-center overflow-y-auto no-scrollbar"
+    >
+      <div class="w-[100%] h-auto flex flex-col justify-center items-center">
+        <div
+          class="w-[100%] h-auto flex flex-row justify-center items-center gap-6"
+        >
+          <a href="#" class="github">
+            <i class="fab fa-github fa-3x"></i>
+          </a>
+          <a href="#" class="youtube">
+            <i class="fab fa-youtube fa-3x"></i>
+          </a>
+        </div>
+        <div
+          class="w-[100%] h-auto flex flex-col justify-center items-center mt-72 mb-20"
+        >
+          <i class="fas fa-code text-white text-6xl"></i>
+          <h1 class="text-white text-6xl font-bold">
+            <span class="text-red-500">Mr</span>Bobertus<span class="text-red-500 blinking-cursor">|</span>
+          </h1>
+          <h2 class="text-white text-3xl font-bold">
+            <span class="text-red-500">Full Stack</span>
+            Developer
+          </h2>
+
+          <p class="text-white text-2xl mt-36 mb-36 animate-bounce">
+            <i class="fas fa-arrow-down text-red-500"></i>
+            Scroll Down
+            <i class="fas fa-arrow-down text-red-500"></i>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-32"
+      >
+        <h1 class="text-7xl font-bold text-red-500">About Me</h1>
+        <p class="text-white text-2xl mt-6 mb-36 text-center ml-20 mr-20">
+          I am a developer with a growing foundation in backend engineering and
+          a growing expertise in frontend development.
+          <br />
+          <br />
+          My primary goal is to build practical applications that are genuinely
+          useful. I use Python and JavaScript to bring these ideas to life and
+          am currently focused on expanding my skills in Node.js. My interest
+          also extends to the field of AI development, where I love to
+          explore how technology can solve more complex challenges.
+          <br />
+          <br />
+          When i am not working, you can find me making Youtube Videos, playing
+          Video Games, just chilling with my friends or
+          just enjoying my time.
+        </p>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-10"
+      >
+        <h1 class="text-7xl font-bold text-red-500">Projects</h1>
+        <div id="projects" class="w-[100%] h-auto grid md:grid-cols-3 grid-cols-1 gap-10 mt-10 md:pr-16 pr-6 md:pl-16 pl-6 mb-10">
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-24"
+      >
+        <h1 class="text-7xl font-bold text-red-500">Skills</h1>
+        <div id="skills" class="w-[100%] h-auto grid md:grid-cols-4 grid-cols-1 gap-10 mt-10 md:pr-20 pr-10 md:pl-20 pl-10 mb-10">
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-24"
+      >
+        <h1 class="text-6xl font-bold text-red-500">Tools</h1>
+        <div id="tools" class="w-[100%] h-auto grid md:grid-cols-4 grid-cols-1 gap-10 mt-10 md:pr-20 pr-10 md:pl-20 pl-10 mb-10">
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-12"
+      >
+        <h1 class="text-7xl font-bold text-red-500 mt-10 mb-10">Contact</h1>
+        <div
+          id = "minable" data-breakingstage="0" class="cursor-crosshair grid-background w-[87%] h-[250px] bg-[#0f0000] rounded-lg shadow-lg shadow-red-900 border-2 border-red-900 flex flex-col justify-start items-start p-8"
+        >
+          <h1 class="text-5xl">Want to contact me?</h1>
+          <h1 class="text-white text-4xl font-bold">
+            Then send me a message via
+            <span class="text-red-500">
+              <i class="fas fa-envelope"></i>
+              Email
+            </span>
+          </h1>
+          <p class="text-white text-2xl mt-3">mr.bobertus.dev@gmail.com</p>
+        </div>
+      </div>
+
+      <div
+        class="w-[100%] h-auto flex flex-col justify-center items-center mt-10"
+      >
+        <p>©2025 MrBobertus</p>
+      </div>
+    </section>
+    <audio id="audio" class="hidden" src=""></audio>
+  </body>
+  <script src="./scripts/main.js"></script>
+</html>

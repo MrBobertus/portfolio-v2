@@ -1,0 +1,79 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pattern-background {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 0px,
+    transparent 8px
+  );
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-background {
+  --grid-line-color: rgba(255, 255, 255, 0.05);
+
+  background-image: linear-gradient(
+      to right,
+      var(--grid-line-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.blinking-cursor {
+  animation: blinking-cursor 1.1s steps(1) infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.project-img::after {
+  filter : grayscale(100%);
+}
+
+#pickaxe {
+  transform-origin: bottom left;
+  transition: all 0.2s ease-in-out;
+}
+
+.sharp-image {
+  image-rendering: -webkit-optimize-contrast; /* For older Chrome and Safari */
+  image-rendering: -moz-crisp-edges;          /* For Firefox */
+  image-rendering: -o-pixelated;             /* For older Opera */
+  image-rendering: pixelated;                /* The modern standard */
+  image-rendering: crisp-edges;
+}
+
+.cursor-crosshair {
+  cursor: url('../assets/images/secret/crosshair.png'), (16, 16);
+  backdrop-filter: invert(1);
+}

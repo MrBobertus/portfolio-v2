@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Visual Studio Code",
+        "image_url": "./assets/images/vsc-icon.png"
+    },
+    {
+        "name": "Shopify",
+        "image_url": "./assets/images/shopify-icon.png"
+    },
+    {
+        "name": "Miro",
+        "image_url": "./assets/images/legal-icon.png"
+    },
+    {
+        "name": "IntelliJ IDEA",
+        "image_url": "./assets/images/iide-icon.png"
+    },
+    {
+        "name": "Node-RED",
+        "image_url": "./assets/images/node-red-icon.png"
+    },
+    {
+        "name": "TeleportHQ",
+        "image_url": "./assets/images/teleporthq-icon.png"
+    },
+    {
+        "name": "Firebase",
+        "image_url": "./assets/images/firebase-icon.png"
+    },
+    {
+        "name": "Supabase",
+        "image_url": "./assets/images/legal-icon.png"
+    },
+    {
+        "name": "n8n",
+        "image_url": "./assets/images/n8n-icon.png"
+    }
+]
